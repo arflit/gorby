@@ -1,0 +1,46 @@
+/* нормалайз и шрифты */
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+/* вся страница и технические блоки для миксов */
+@import url(../blocks/page/page.css); 
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_active/link_active.css);
+/* Шапка */
+@import url(../blocks/header/header.css);
+  @import url(../blocks/header/__title/header__title.css);
+  @import url(../blocks/header/__logo/header__logo.css);
+  @import url(../blocks/header/__menu/header__menu.css);
+  
+/* Контент */
+@import url(../blocks/content/content.css);
+@import url(../blocks/button/button.css);
+
+
+@import url(../blocks/banner/banner.css);
+  @import url(../blocks/banner/__title/banner__title.css);
+
+@import url(../blocks/section/section.css);
+  @import url(../blocks/section/__title/section__title.css);
+  @import url(../blocks/section/__text/section__text.css);
+
+@import url(../blocks/card-container/card-container.css);
+
+@import url(../blocks/card/card.css);
+    @import url(../blocks/card/_small/card_small.css);
+  @import url(../blocks/card/__image/card__image.css);
+    @import url(../blocks/card/__image/_round/card__image_round.css);
+  @import url(../blocks/card/__title/card__title.css);
+  @import url(../blocks/card/__subtitle/card__subtitle.css);
+  @import url(../blocks/card/__text/card__text.css);
+  @import url(../blocks/card/__spantext/card__spantext.css);
+
+  @import url(../blocks/card2/__title/card2__title.css);
+
+@import url(../blocks/form/form.css);
+  @import url(../blocks/form/__title/form__title.css);
+  @import url(../blocks/form/__input/form__input.css);
+  @import url(../blocks/form/__button/form__button.css);
+
+  /* Подвал */
+@import url(../blocks/footer/footer.css);
+

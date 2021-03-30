@@ -1,0 +1,3 @@
+.card_small {
+  width: calc((100% - 90px) / 4);
+}
