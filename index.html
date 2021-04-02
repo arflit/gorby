@@ -9,38 +9,47 @@
       content="вёрстка - Аркадий Флитман, дизайн - Мария Захарова"
     />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="icon" href="./images/favicon.ico" />
+    <link rel="icon" href="./images/logo.png" />
     <title>ПоходКлубКом</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
-        <h1 class="header__title"></h1>
-        <div class="header__logo"></div>
-        <nav class="header__menu"></nav>
+        <div class="header__container">
+          <h1 class="header__title"></h1>
+          <img src="./images/logo.png" class="header__logo" alt="Логотип">
+          <nav class="header__menu"></nav>
+        </div>
+        <div class="banner">
+          <div class="banner__content">
+            <h2 class="banner__title">
+              Мы много лет ходим в походы с&nbsp;детьми - и приглашаем вас идти с
+              нами.
+            </h2>
+            <button class="button">Оставить заявку</button>
+          </div>
+        </div>
       </header>
       <main class="content">
-        <section class="banner">
-          <h2 class="banner__title">
-            Мы много лет ходим в походы с детьми - и приглашаем вас идти с нами.
-          </h2>
-          <button class="button">Оставить заявку</button>
-        </section>
         <section class="section">
           <h2 class="section__title">Ближайшие походы</h2>
-          <p class="section__text">bla bla bla</p>
+          <p class="section__text">Легкий текст про то, как вам и  вашим детям будет приятно и полезно пойти с нми в поход. <br>Он займёт примерно 2 или 3 строчки. </p>
           <div class="card-container">
             <div class="card">
-              <img class="card__image" alt="" src="" />
+              <img class="card__image" alt="Поход" src="./images/pohod1.png" />
+              <div class="card__container">
               <h3 class="card__subtitle">Река Пра с 12 по 19 июня 2021 г.</h3>
               <p class="card__text">
-                Водный поход на катамаранах. Неделя на простой речке с
+                Водный поход на катамаранах.<br>Неделя на простой речке с
                 песчанными пляжами, соснами и дубравами.
               </p>
               <p class="card__spantext">Группа набирается, мест достаточно.</p>
             </div>
+            </div>
             <div class="card">
-              <img class="card__image" alt="" src="" />
+              <img class="card__image" alt="Поход" src="./images/pohod2.png" />
+              <div class="card__container">
+
               <h3 class="card__subtitle">Крым с 1 по 10 мая 2021 г.</h3>
               <p class="card__text">
                 Горный пеший поход - радиальные выходы с базовым лагерем. Горный
@@ -48,21 +57,27 @@
                 возвращаться...
               </p>
               <p class="card__spantext">
-                Группа набрана, возможна запись в лист ожидания. купили билеты
+                Группа набрана, возможна запись в лист ожидания.<br>купили билеты
                 на поезд
               </p>
+              </div>
+            
             </div>
             <div class="card">
-              <img class="card__image" alt="" src="" />
+              <img class="card__image" alt="Поход" src="./images/pohod3.png" />
+              <div class="card__container">
+
               <h3 class="card__subtitle">Река Писта с 3 по 18 июля 2021 г.</h3>
               <p class="card__text">
-                Водный поход на катамаранах. Это быстрая, интересная в
+                Водный поход на катамаранах.<br>Это быстрая, интересная в
                 спортивном плане, но при этом не экстремальная река.
               </p>
               <p class="card__spantext">
-                Группа набирается, мест достаточно. Билеты на поезд покупаем в
+                Группа набирается, мест достаточно.<br>Билеты на поезд покупаем в
                 начале апреля
               </p>
+              </div>
+
             </div>
           </div>
         </section>
@@ -185,22 +200,29 @@
         <section class="section">
           <h2 class="section__title">Что делать дальше?</h2>
           <div class="card-container">
-              <form class="form">
-                <h3 class="form__title"></h3>
-                <input class="form__input">
-                <input class="form__input">
-                <button class="button form__button" type="submit">Поговорите со мной!</button>
-              </form>
-              <form class="form">
-                <h3 class="form__title"></h3>
-                <input class="form__input">
-                <input class="form__input">
-                <button class="button form__button" type="submit">Записаться в поход</button>
-              </form>
+            <form class="form">
+              <h3 class="form__title"></h3>
+              <input class="form__input" />
+              <input class="form__input" />
+              <button class="button form__button" type="submit">
+                Поговорите со мной!
+              </button>
+            </form>
+            <form class="form">
+              <h3 class="form__title"></h3>
+              <input class="form__input" />
+              <input class="form__input" />
+              <button class="button form__button" type="submit">
+                Записаться в поход
+              </button>
+            </form>
           </div>
         </section>
       </main>
       <footer class="footer"></footer>
     </div>
+
+<!--     <script async src="//pixel-perfect.org/service/script.js?guid=041f99b2b3c2126760daa8aca39788bc"></script>
+ -->
   </body>
 </html>

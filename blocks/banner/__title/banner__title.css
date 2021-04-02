@@ -1,3 +1,10 @@
 .banner__title {
-  
+  font-family: 'Gelasio', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 700;
+  color: #fff;
+  font-size: 54px;
+  max-width: 900px;
+  margin: 0;
+  padding-bottom: calc(100%*.05);
+  align-self: flex-start;
 }
