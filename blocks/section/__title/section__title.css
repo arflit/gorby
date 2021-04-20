@@ -7,3 +7,9 @@
   color: #FF5c22;
   font-size: 43px;
 }
+
+@media (max-width: 1160px) {
+  .section__title {
+    font-size: 36px;
+  }
+}
